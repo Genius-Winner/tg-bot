@@ -7,7 +7,17 @@
 - 多命令系统
 - systemd 后台启动
 - 一键部署脚本（deploy.sh）
-- 
+
+## 主要命令
+
+| 命令 | 功能 |
+|------|------|
+| /start | 开始使用机器人 |
+| /help | 查看帮助 |
+| /ai 文字 | AI 回复 |
+| /model openai/deepseek | 切换 AI 模型 |
+| /users | 查看用户（管理员） |
+
 ## 文件说明
 🔥 VPS 一键部署脚本 deploy.sh
 	•	自动安装 Python
@@ -20,17 +30,6 @@
 	•	自动根据你选择的模型回复
 	•	支持流式响应（可选）
 	•	支持模型切换指令 /model
-
-## 主要命令
-
-| 命令 | 功能 |
-|------|------|
-| /start | 开始使用机器人 |
-| /help | 查看帮助 |
-| /ai 文字 | AI 回复 |
-| /model openai/deepseek | 切换 AI 模型 |
-| /users | 查看用户（管理员） |
-
 ---
 
 ## 📦 部署步骤（Ubuntu / Debian）
