@@ -38,6 +38,8 @@ export ADMIN_ID="你的Telegram数字ID"
 export OPENAI_API_KEY="你的OpenAI key"
 export DEEPSEEK_API_KEY="你的DeepSeek key"
 ```
+获取 BOT_TOKEN:
+在 Telegram 中打开 @BotFather输入/newbot获取TG机器人token
 
 ### 3. 执行一键部署
 
@@ -73,5 +75,16 @@ advanced_tg_bot/
 └── database/
        db.py
 ```
+🔥 VPS 一键部署脚本 deploy.sh
+	•	自动安装 Python
+	•	自动创建虚拟环境
+	•	自动安装项目依赖
+	•	自动创建 systemd 服务后台运行
+	•	自动启动机器人
+	•	自动重启机制
 
+🔥 ai_reply.py 完整版本（可选双模型）
+	•	自动根据你选择的模型回复
+	•	支持流式响应（可选）
+	•	支持模型切换指令 /model
 ---
