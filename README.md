@@ -54,7 +54,9 @@ export OPENAI_API_KEY="你的OpenAI key"
 export DEEPSEEK_API_KEY="你的DeepSeek key"
 ```
 获取 BOT_TOKEN:
-在 Telegram 中打开 @BotFather 输入 /newbot 获取TG机器人token
+在 Telegram 中打开 @BotFather 输入 /newbot 获取BOT_TOKEN
+获取 Chat_ID:
+在 Telegram 中打开 @userinfobot 输入 /Start 获取Chat_ID
 
 ### 3. 执行一键部署
 
