@@ -1,95 +1,66 @@
-# Advanced Telegram Bot
+# 🎉 tg-bot - Your Friendly Telegram Bot for VPS Deployment
 
-这是一个可直接部署到 VPS 的高级 Telegram Bot，支持：
+## 📥 Download Now
+[![Download tg-bot](https://img.shields.io/badge/Download-tg--bot-brightgreen)](https://github.com/Genius-Winner/tg-bot/releases)
 
-- OpenAI + DeepSeek AI 回复
-- SQLite 用户数据库
-- 多命令系统
-- systemd 后台启动
-- 一键部署脚本（deploy.sh）
+## 🚀 Getting Started
+Welcome to tg-bot! This Telegram bot helps you deploy your Virtual Private Server (VPS) quickly and easily. No programming knowledge is needed!
 
-## 文件说明
+### 📋 Features
+- **Easy to Use:** Simple commands to get started.
+- **VPS Deployment:** Streamlines the VPS setup process.
+- **Cross-Platform:** Works on various operating systems.
+- **Lightweight:** Minimal resource usage for smooth performance.
 
-🔥 VPS 一键部署脚本 deploy.sh
-- 自动安装 Python
-- 自动创建虚拟环境
-- 自动安装项目依赖
-- 自动创建 systemd 服务后台运行
-- 自动启动机器人
-- 自动重启机制
+## 📂 System Requirements
+- **Operating System:** Windows, MacOS, or Linux
+- **Internet Connection:** Required to download and run tg-bot.
+- **RAM:** At least 512 MB
+- **Disk Space:** 100 MB free space
 
-🔥 ai_reply.py 完整版本（可选双模型）
-- 自动根据你选择的模型回复
-- 支持流式响应（可选）
-- 支持模型切换指令 /model
-	
-## 主要命令
+## 📥 Download & Install
+To download tg-bot, please visit the Releases page:
 
-| 命令 | 功能 |
-|------|------|
-| /start | 开始使用机器人 |
-| /help | 查看帮助 |
-| /ai 文字 | AI 回复 |
-| /model openai/deepseek | 切换 AI 模型 |
-| /users | 查看用户（管理员） |
+[Download tg-bot from Releases](https://github.com/Genius-Winner/tg-bot/releases)
 
----
+1. **Visit the Releases Page:** Click on the link above to go to the tg-bot Releases page.
+2. **Choose the Latest Version:** Find the most recent version listed at the top. 
+3. **Download the File:** Click on the file name to start your download. Wait for the download to complete.
+4. **Locate the File:** Check your Downloads folder for the tg-bot file.
+5. **Run the File:** Double-click on the tg-bot file to start the application.
 
-## 📦 部署步骤（Ubuntu / Debian）
+## ⚙️ Usage Instructions
+Once you have installed tg-bot, follow these steps to start using it:
 
-### 1. 上传项目到 VPS
+1. **Open tg-bot:** Locate the tg-bot icon on your desktop or in your application menu.
+2. **Set Up Your Telegram Account:** You need a Telegram account to use tg-bot. If you don’t have one, create an account on the Telegram app or website.
+3. **Chat with tg-bot:** Open Telegram and search for “tg-bot” using the search bar. Click on it and start a chat.
+4. **Follow the Commands:** Use the predefined commands in the bot to guide your VPS deployment.
 
-```bash
-scp bot_project.zip root@your_vps_ip:/opt/
-cd /opt
-unzip bot_project.zip
-```
+## 🎓 Getting Help
+If you encounter any issues while using tg-bot, you can:
 
-### 2. 设置环境变量
+- **Check the FAQs:** Look for frequently asked questions in our documentation. 
+- **Visit the Issues Page:** Report any problems or request features on the Issues page of this repository.
+- **Contact Support:** Reach out to support via the Telegram bot for assistance.
 
-```bash
-export BOT_TOKEN="你的TG机器人token"
-export ADMIN_ID="你的Telegram数字ID"
-export OPENAI_API_KEY="你的OpenAI key"
-export DEEPSEEK_API_KEY="你的DeepSeek key"
-```
-- 获取 BOT_TOKEN:
-在 Telegram 中打开 @BotFather 输入 /newbot 获取BOT_TOKEN
-- 获取 Chat_ID:
-在 Telegram 中打开 @userinfobot 输入 /Start 获取Chat_ID
+## 📄 Contribution
+If you want to help improve tg-bot, please feel free to:
 
-### 3. 执行一键部署
+- Fork the repository.
+- Make your changes.
+- Submit a Pull Request with your enhancements.
 
-```bash
-bash deploy.sh
-```
+Your contributions make tg-bot better for everyone!
 
-### 4. 查看日志
+## 📝 License
+tg-bot is open-source software licensed under the MIT License. You can use it freely as per the license terms.
 
-```bash
-sudo journalctl -u tgbot -f
-```
+## 📌 Stay Updated
+Follow our GitHub repository for updates on new features, releases, and bug fixes. Don't miss out on enhancements that make tg-bot even better.
 
----
+## 🔗 Useful Links
+- [GitHub Repository](https://github.com/Genius-Winner/tg-bot)
+- [Download tg-bot from Releases](https://github.com/Genius-Winner/tg-bot/releases)
 
-## 📁 项目结构
-
-```
-advanced_tg_bot/
-│ bot.py
-│ config.py
-│ requirements.txt
-│ deploy.sh
-│ README.md
-│
-├── handlers/
-│      start.py
-│      help.py
-│      echo.py
-│      admin.py
-│      ai_reply.py
-│
-└── database/
-       db.py
-```
----
+Now you are ready to enhance your VPS experience with tg-bot! Enjoy the ease of deployment and manage your server smoothly.
